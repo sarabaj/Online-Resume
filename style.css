@@ -1,0 +1,142 @@
+/* ✅ تحسين الشريط العلوي (Navbar) */
+.navbar {
+    background: linear-gradient(to right, #000000, #060053);
+    padding: 12px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid white;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    height: 45px; /* تكبير اللوقو */
+    width: auto;
+    margin-right: 10px;
+}
+
+.navbar-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    margin-right: 30px;
+}
+
+/* ✅ تحسين ألوان الروابط */
+.navbar-nav .nav-link {
+    color: #b0b0b0; /* اللون الرمادي */
+    font-weight: bold;
+    margin: 0 10px;
+    position: relative;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+
+/* ✅ عند التمرير أو النقر على أي عنصر يصبح أبيض مع خط تحته */
+.navbar-nav .nav-link:hover {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+/* ✅ تحسين الهيدر وإضافة الخط المتموج */
+.hero-section {
+    padding: 80px 0 10px 0; /* تقليل المسافة لرفع الـ About Me أكثر */
+    text-align: center;
+    background: linear-gradient(to right, #000000, #060053);
+    color: white;
+    position: relative;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.484);
+
+}
+
+/* ✅ ضبط موضع "About Me" ليكون أقرب للهيدر */
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: auto;
+    padding: 10px 0; /* تقليل المسافة لرفعه أكثر */
+    text-align: left;
+}
+
+.about-image {
+    border: 3px solid #ffffff;
+    width: 190px;
+    height: 170px;
+    object-fit: cover;
+    margin-right: 30px;
+    flex-shrink: 0;
+    border-radius: 50%;
+}
+
+.about-text {
+    font-size: 18px;
+    color: white;
+}
+
+/* ✅ تحسين جميع الأقسام */
+.section {
+    padding: 60px 0;
+    text-align: center;
+    background: linear-gradient(to right, #000000, #060053);
+    color: white;
+}
+
+/* ✅ تنسيق العناوين */
+.section-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+/* ✅ تحسين تجربة التمرير */
+html {
+    scroll-behavior: smooth;
+}
+
+/* ✅ تنسيق القوائم */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* ✅ تحسين الفوتر */
+footer {
+    text-align: center;
+    background: #d3d3d3;
+    color: black;
+    padding: 18px;
+    font-size: 18px;
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 18px;
+    }
+    .hero-title {
+        font-size: 28px;
+    }
+    .hero-subtitle {
+        font-size: 16px;
+    }
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-image {
+        margin-bottom: 15px;
+    }
+}
+html {
+    scroll-behavior: smooth;
+}
