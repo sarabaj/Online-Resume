@@ -6,10 +6,10 @@
     <title>Sarah Bajarsh - Resume</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
-<!-- Navigation Bar -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="#">
@@ -26,14 +26,13 @@
                 <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
                 <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
                 <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="#achievements">Hackathons & Achievements</a></li>
+                <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
-<!-- Hero Section -->
 <header class="hero-section">
     <div class="container text-center">
         <h1 class="hero-title">Sarah A. Bajarsh</h1>
@@ -41,43 +40,31 @@
     </div>
 </header>
 
-<!-- About Me Section -->
 <section id="about" class="section">
     <div class="container about-container d-flex align-items-center">
         <img src="sarahbj.jpg" class="about-image" alt="Sarah Bajarsh">
         <div>
             <h2 class="section-title">About Me</h2>
-            <p>
-                Passionate and ambitious software engineering student at the University of Jeddah, specializing in UI/UX design and project management. 
-                Experienced in designing intuitive digital experiences, leading technical teams, and managing innovative projects. 
-                Adept at utilizing design thinking methodologies to create user-centered solutions. 
-                Active participant in hackathons and technical competitions, demonstrating leadership and creative problem-solving skills.
-            </p>
+            <p>Passionate and ambitious software engineering student at the University of Jeddah, specializing in UI/UX design and project management. Experienced in designing intuitive digital experiences, leading technical teams, and managing innovative projects.</p>
         </div>
     </div>
 </section>
 
-
-<!-- Education Section -->
 <section id="education" class="section">
     <div class="container">
         <h2 class="section-title">Education</h2>
         <p><strong>University of Jeddah</strong> - Bachelor's in Software Engineering (2022 - 2026)</p>
-
     </div>
 </section>
 
-<!-- Experience Section -->
 <section id="experience" class="section">
     <div class="container">
         <h2 class="section-title">Experience</h2>
-
         <p><strong>UI/UX Designer - SNB (Saudi National Bank)</strong> - 2024 - Present</p>
         <ul>
             <li>Designed and enhanced banking application interfaces.</li>
             <li>Conducted usability testing and created wireframes using Figma.</li>
         </ul>
-
         <p><strong>President - Robotics and IoT Club</strong> - University of Jeddah (2022 - 2023)</p>
         <ul>
             <li>Led the club’s activities and organized design workshops.</li>
@@ -85,7 +72,6 @@
     </div>
 </section>
 
-<!-- Skills Section -->
 <section id="skills" class="section">
     <div class="container">
         <h2 class="section-title">Skills</h2>
@@ -98,44 +84,52 @@
     </div>
 </section>
 
-<!-- Projects Section -->
 <section id="projects" class="section">
     <div class="container">
         <h2 class="section-title">Projects</h2>
-        <ul>
-            <li><strong>AI-Powered Vehicle Alert System</strong> - Computer vision-based driver assistance system.</li>
-            <li><strong>Ankood: Blood Donation App</strong> - Connecting donors with hospitals.</li>
-            <li><strong>Zad: Food Waste App</strong> - Collecting and redistributing surplus food.</li>
-        </ul>
+        <div class="project">
+            <h3>Ankood: Blood Donation App</h3>
+            <p>Connecting donors with hospitals to streamline the blood donation process and ensure availability.</p>
+            <a href="ankood.pdf" target="_blank" class="btn">View PDF</a>
+        </div>
+        <div class="project">
+            <h3>Zad: Food Waste App</h3>
+            <p>Collecting and redistributing surplus food to reduce waste and help those in need.</p>
+            <a href="zad.pdf" target="_blank" class="btn">View PDF</a>
+        </div>
     </div>
 </section>
 
-<!-- Hackathons & Achievements Section -->
 <section id="achievements" class="section">
     <div class="container">
-        <h2 class="section-title">Hackathons & Achievements</h2>
+        <h2 class="section-title">Achievements</h2>
         <ul>
             <li>🏆 Winner of Amazon Camp (2024/2025) - Project Manager</li>
-            <li>💡 Participated in Handicrafts Hackathon (2025) - UI/UX Designer</li>
-            <li>🚀 Participated in EDU Thon – Education Hackathon (2024) - Leader, UI/UX Designer</li>
-            <li>🌍 Participated in Hajj Innovation Hackathon (2024) - Leader, UI/UX Designer</li>
-            <li>📍 Participated in Tourism Hackathon – Jeddah (2024) - UI/UX Designer</li>
-            <li>🏠 Participated in Roshn Hackathon (2024) - UI/UX Designer</li>
+            <li>💡 Handicrafts Hackathon (2025) - UI/UX Designer</li>
+            <li>🚀 EDU Thon – Education Hackathon (2024) - Leader, UI/UX Designer</li>
+            <li>🌍 Hajj Innovation Hackathon (2024) - Leader, UI/UX Designer</li>
+            <li>📍 Tourism Hackathon – Jeddah (2024) - UI/UX Designer</li>
+            <li>🏠 Roshn Hackathon (2024) - UI/UX Designer</li>
         </ul>
     </div>
 </section>
 
-<!-- Contact Section -->
 <section id="contact" class="section">
     <div class="container">
         <h2 class="section-title">Contact</h2>
-        <p>Email: saraayb2003@gmail.com</p>
-        <p>Phone: +966 556223780</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/sarah-bajarsh" target="_blank">linkedin.com/in/sarah-bajarsh</a></p>
+        <p>Email: <a href="mailto:saraayb2003@gmail.com">saraayb2003@gmail.com</a></p>
+        <p>Phone: <a href="tel:+966556223780">+966 556223780</a></p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/sarah-bajarsh" target="_blank" class="social-icon">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/sarabaj" target="_blank" class="social-icon">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
     </div>
 </section>
 
-<!-- Footer -->
 <footer>
     <p>© 2025 Sarah Bajarsh. All Rights Reserved.</p>
 </footer>
@@ -147,7 +141,6 @@
 
         function updateActiveSection() {
             let scrollPosition = window.scrollY + 200;
-
             sections.forEach(section => {
                 if (scrollPosition >= section.offsetTop && scrollPosition < section.offsetTop + section.offsetHeight) {
                     let id = section.getAttribute("id");
