@@ -1,4 +1,3 @@
-/* ✅ تحسين الشريط العلوي (Navbar) */
 .navbar {
     background: linear-gradient(to right, #000000, #060053);
     padding: 12px 20px;
@@ -12,7 +11,7 @@
 }
 
 .navbar-logo {
-    height: 45px; /* تكبير اللوقو */
+    height: 45px;
     width: auto;
     margin-right: 10px;
 }
@@ -24,9 +23,8 @@
     margin-right: 30px;
 }
 
-/* ✅ تحسين ألوان الروابط */
 .navbar-nav .nav-link {
-    color: #b0b0b0; /* اللون الرمادي */
+    color: #b0b0b0;
     font-weight: bold;
     margin: 0 10px;
     position: relative;
@@ -34,15 +32,13 @@
 }
 
 
-/* ✅ عند التمرير أو النقر على أي عنصر يصبح أبيض مع خط تحته */
 .navbar-nav .nav-link:hover {
     color: white;
     border-bottom: 2px solid white;
 }
 
-/* ✅ تحسين الهيدر وإضافة الخط المتموج */
 .hero-section {
-    padding: 80px 0 10px 0; /* تقليل المسافة لرفع الـ About Me أكثر */
+    padding: 80px 0 10px 0;
     text-align: center;
     background: linear-gradient(to right, #000000, #060053);
     color: white;
@@ -51,14 +47,13 @@
 
 }
 
-/* ✅ ضبط موضع "About Me" ليكون أقرب للهيدر */
 .about-container {
     display: flex;
     align-items: center;
     justify-content: center;
     max-width: 900px;
     margin: auto;
-    padding: 10px 0; /* تقليل المسافة لرفعه أكثر */
+    padding: 10px 0;
     text-align: left;
 }
 
@@ -77,7 +72,6 @@
     color: white;
 }
 
-/* ✅ تحسين جميع الأقسام */
 .section {
     padding: 60px 0;
     text-align: center;
@@ -85,7 +79,6 @@
     color: white;
 }
 
-/* ✅ تنسيق العناوين */
 .section-title {
     font-size: 26px;
     font-weight: bold;
@@ -94,12 +87,10 @@
     color: #ffffff;
 }
 
-/* ✅ تحسين تجربة التمرير */
 html {
     scroll-behavior: smooth;
 }
 
-/* ✅ تنسيق القوائم */
 ul {
     list-style: none;
     padding: 0;
@@ -110,7 +101,6 @@ ul li {
     margin-bottom: 10px;
 }
 
-/* ✅ تحسين الفوتر */
 footer {
     text-align: center;
     background: #d3d3d3;
@@ -136,7 +126,4 @@ footer {
     .about-image {
         margin-bottom: 15px;
     }
-}
-html {
-    scroll-behavior: smooth;
 }
